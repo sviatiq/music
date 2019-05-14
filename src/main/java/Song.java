@@ -4,7 +4,7 @@ public class Song extends Music{
     private String songSinger;
     private String album;
 
-    public Song(String genre, Country country, String language) {
+    public Song(String genre, String country, String language) {
         super(genre, country, language);
     }
 

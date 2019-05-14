@@ -1,14 +1,14 @@
 public abstract class Music {
 
     private String genre;
-    private Country country;
+    private String country;
     private String language;
 
 
     public Music() {
     }
 
-    public Music(String genre, Country country, String language) {
+    public Music(String genre, String country, String language) {
         this.genre = genre;
         this.country = country;
         this.language = language;
@@ -22,11 +22,11 @@ public abstract class Music {
         this.genre = genre;
     }
 
-    public Country getCountry() {
+    public String getCountry() {
         return country;
     }
 
-    public void setCountry(Country country) {
+    public void setCountry(String country) {
         this.country = country;
     }
 
